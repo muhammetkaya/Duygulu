@@ -15,10 +15,10 @@ namespace DuyguluDogrulama
 {
     public partial class frmDogrulama : Form
     {
-        string ConsumerKey = "Fqa5DjXkUlB1HY7VWzoNjA";
-        string ConsumerSecret = "o113z7LQIoaiEpvbZXXRtPWxsDmTnKFK9WZZejfA";
-        string AccessToken = "330333367-lUcRAbLeAMNyJWFfkJcylcByt2HTgHEiIby6ANvM";
-        string AccessTokenSecret = "sqXweAdL0oAGW76o9cL5PXE06RorwzZUc6WBCNUcLqU6z";
+        string ConsumerKey = "";
+        string ConsumerSecret = "";
+        string AccessToken = "";
+        string AccessTokenSecret = "";
         DataTable TweetTablo;
         public frmDogrulama()
         {
