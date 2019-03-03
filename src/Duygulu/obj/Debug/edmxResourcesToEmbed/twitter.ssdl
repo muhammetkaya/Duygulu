@@ -1,0 +1,66 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="twitterdbModel.Store" Alias="Self" Provider="MySql.Data.MySqlClient" ProviderManifestToken="5.6" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <EntityContainer Name="twitterdbModelStoreContainer">
+    <EntitySet Name="appuser" EntityType="twitterdbModel.Store.appuser" store:Type="Tables" Schema="twitterdb" />
+    <EntitySet Name="searchtable" EntityType="twitterdbModel.Store.searchtable" store:Type="Tables" Schema="twitterdb" />
+    <EntitySet Name="tweettable" EntityType="twitterdbModel.Store.tweettable" store:Type="Tables" Schema="twitterdb" />
+    <EntitySet Name="usertable" EntityType="twitterdbModel.Store.usertable" store:Type="Tables" Schema="twitterdb" />
+  </EntityContainer>
+  <EntityType Name="appuser">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="uint" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="Name" Type="varchar" Nullable="false" MaxLength="50" />
+    <Property Name="Password" Type="varchar" Nullable="false" MaxLength="50" />
+    <Property Name="Mail" Type="varchar" Nullable="false" MaxLength="100" />
+    <Property Name="Authorize" Type="tinyint" Nullable="false" />
+    <Property Name="Positiv" Type="int" />
+    <Property Name="Negativ" Type="int" />
+    <Property Name="Stemming1" Type="smallint" Nullable="false" />
+    <Property Name="Preprocessing" Type="bit" Nullable="false" />
+    <Property Name="StopWord" Type="bit" Nullable="false" />
+    <Property Name="Stemming2" Type="smallint" Nullable="false" />
+    <Property Name="Spelling" Type="bit" Nullable="false" />
+    <Property Name="Similarity" Type="int" />
+  </EntityType>
+  <EntityType Name="searchtable">
+    <Key>
+      <PropertyRef Name="SearchId" />
+    </Key>
+    <Property Name="SearchId" Type="uint" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="SearchDate" Type="datetime" />
+    <Property Name="SearchText" Type="varchar" MaxLength="256" />
+    <Property Name="UserId" Type="decimal" Nullable="false" />
+    <Property Name="Authorize" Type="tinyint" Nullable="false" />
+    <Property Name="Positiv" Type="int" />
+    <Property Name="Negativ" Type="int" />
+  </EntityType>
+  <EntityType Name="tweettable">
+    <Key>
+      <PropertyRef Name="TweetID" />
+    </Key>
+    <Property Name="TweetID" Type="varchar" Nullable="false" MaxLength="50" />
+    <Property Name="SearchId" Type="uint" />
+    <Property Name="CreatedDate" Type="datetime" />
+    <Property Name="GeoCode" Type="varchar" MaxLength="50" />
+    <Property Name="Text" Type="text" />
+    <Property Name="UserId" Type="decimal" />
+    <Property Name="IsReweet" Type="bool" />
+    <Property Name="ReTweetCount" Type="decimal" />
+    <Property Name="HasPhoto" Type="varchar" MaxLength="512" />
+    <Property Name="FavLike" Type="decimal" />
+    <Property Name="Text2" Type="text" />
+  </EntityType>
+  <EntityType Name="usertable">
+    <Key>
+      <PropertyRef Name="UserId" />
+    </Key>
+    <Property Name="UserId" Type="decimal" Nullable="false" />
+    <Property Name="UserName" Type="varchar" MaxLength="100" />
+    <Property Name="UserScreenName" Type="varchar" MaxLength="100" />
+    <Property Name="USerProfileText" Type="varchar" MaxLength="256" />
+    <Property Name="UserFollowerCount" Type="decimal" />
+    <Property Name="UserFollowingCount" Type="decimal" />
+  </EntityType>
+</Schema>

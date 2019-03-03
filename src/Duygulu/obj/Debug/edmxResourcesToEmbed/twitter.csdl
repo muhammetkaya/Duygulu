@@ -1,0 +1,66 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="twitterdbModel" Alias="Self" p1:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:p1="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+  <EntityContainer Name="twitterdbEntities1" p1:LazyLoadingEnabled="true">
+    <EntitySet Name="appuser" EntityType="twitterdbModel.appuser" />
+    <EntitySet Name="searchtable" EntityType="twitterdbModel.searchtable" />
+    <EntitySet Name="tweettable" EntityType="twitterdbModel.tweettable" />
+    <EntitySet Name="usertable" EntityType="twitterdbModel.usertable" />
+  </EntityContainer>
+  <EntityType Name="appuser">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int64" Nullable="false" p1:StoreGeneratedPattern="Identity" />
+    <Property Name="Name" Type="String" Nullable="false" MaxLength="50" Unicode="false" FixedLength="false" />
+    <Property Name="Password" Type="String" Nullable="false" MaxLength="50" Unicode="false" FixedLength="false" />
+    <Property Name="Mail" Type="String" Nullable="false" MaxLength="100" Unicode="false" FixedLength="false" />
+    <Property Name="Authorize" Type="SByte" Nullable="false" />
+    <Property Name="Positiv" Type="Int32" />
+    <Property Name="Negativ" Type="Int32" />
+    <Property Name="Stemming1" Type="Int16" Nullable="false" />
+    <Property Name="Preprocessing" Type="Boolean" Nullable="false" />
+    <Property Name="StopWord" Type="Boolean" Nullable="false" />
+    <Property Name="Stemming2" Type="Int16" Nullable="false" />
+    <Property Name="Spelling" Type="Boolean" Nullable="false" />
+    <Property Name="Similarity" Type="Int32" />
+  </EntityType>
+  <EntityType Name="searchtable">
+    <Key>
+      <PropertyRef Name="SearchId" />
+    </Key>
+    <Property Name="SearchId" Type="Int64" Nullable="false" p1:StoreGeneratedPattern="Identity" />
+    <Property Name="SearchDate" Type="DateTime" Precision="0" />
+    <Property Name="SearchText" Type="String" MaxLength="256" Unicode="false" FixedLength="false" />
+    <Property Name="UserId" Type="Decimal" Nullable="false" Precision="10" Scale="0" />
+    <Property Name="Authorize" Type="SByte" Nullable="false" />
+    <Property Name="Positiv" Type="Int32" />
+    <Property Name="Negativ" Type="Int32" />
+  </EntityType>
+  <EntityType Name="tweettable">
+    <Key>
+      <PropertyRef Name="TweetID" />
+    </Key>
+    <Property Name="TweetID" Type="String" Nullable="false" MaxLength="50" Unicode="false" FixedLength="false" />
+    <Property Name="SearchId" Type="Int64" />
+    <Property Name="CreatedDate" Type="DateTime" Precision="0" />
+    <Property Name="GeoCode" Type="String" MaxLength="50" Unicode="false" FixedLength="false" />
+    <Property Name="Text" Type="String" MaxLength="65535" Unicode="false" FixedLength="false" />
+    <Property Name="UserId" Type="Decimal" Precision="10" Scale="0" />
+    <Property Name="IsReweet" Type="Boolean" />
+    <Property Name="ReTweetCount" Type="Decimal" Precision="10" Scale="0" />
+    <Property Name="HasPhoto" Type="String" MaxLength="512" Unicode="false" FixedLength="false" />
+    <Property Name="FavLike" Type="Decimal" Precision="10" Scale="0" />
+    <Property Name="Text2" Type="String" MaxLength="65535" Unicode="false" FixedLength="false" />
+  </EntityType>
+  <EntityType Name="usertable">
+    <Key>
+      <PropertyRef Name="UserId" />
+    </Key>
+    <Property Name="UserId" Type="Decimal" Nullable="false" Precision="10" Scale="0" />
+    <Property Name="UserName" Type="String" MaxLength="100" Unicode="false" FixedLength="false" />
+    <Property Name="UserScreenName" Type="String" MaxLength="100" Unicode="false" FixedLength="false" />
+    <Property Name="USerProfileText" Type="String" MaxLength="256" Unicode="false" FixedLength="false" />
+    <Property Name="UserFollowerCount" Type="Decimal" Precision="10" Scale="0" />
+    <Property Name="UserFollowingCount" Type="Decimal" Precision="10" Scale="0" />
+  </EntityType>
+</Schema>

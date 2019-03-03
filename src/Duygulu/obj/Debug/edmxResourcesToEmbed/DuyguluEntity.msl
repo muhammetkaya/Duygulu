@@ -1,0 +1,66 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="twitterdbModelStoreContainer" CdmEntityContainer="twitterdbEntities">
+    <EntitySetMapping Name="searchtable">
+      <EntityTypeMapping TypeName="twitterdbModel.searchtable">
+        <MappingFragment StoreEntitySet="searchtable">
+          <ScalarProperty Name="SearchId" ColumnName="SearchId" />
+          <ScalarProperty Name="SearchDate" ColumnName="SearchDate" />
+          <ScalarProperty Name="SearchText" ColumnName="SearchText" />
+          <ScalarProperty Name="UserId" ColumnName="UserId" />
+          <ScalarProperty Name="Authorize" ColumnName="Authorize" />
+          <ScalarProperty Name="Positiv" ColumnName="Positiv" />
+          <ScalarProperty Name="Negativ" ColumnName="Negativ" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="tweettable">
+      <EntityTypeMapping TypeName="twitterdbModel.tweettable">
+        <MappingFragment StoreEntitySet="tweettable">
+          <ScalarProperty Name="TweetID" ColumnName="TweetID" />
+          <ScalarProperty Name="SearchId" ColumnName="SearchId" />
+          <ScalarProperty Name="CreatedDate" ColumnName="CreatedDate" />
+          <ScalarProperty Name="GeoCode" ColumnName="GeoCode" />
+          <ScalarProperty Name="Text" ColumnName="Text" />
+          <ScalarProperty Name="UserId" ColumnName="UserId" />
+          <ScalarProperty Name="IsReweet" ColumnName="IsReweet" />
+          <ScalarProperty Name="ReTweetCount" ColumnName="ReTweetCount" />
+          <ScalarProperty Name="HasPhoto" ColumnName="HasPhoto" />
+          <ScalarProperty Name="FavLike" ColumnName="FavLike" />
+          <ScalarProperty Name="Text2" ColumnName="Text2" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="usertable">
+      <EntityTypeMapping TypeName="twitterdbModel.usertable">
+        <MappingFragment StoreEntitySet="usertable">
+          <ScalarProperty Name="UserId" ColumnName="UserId" />
+          <ScalarProperty Name="UserName" ColumnName="UserName" />
+          <ScalarProperty Name="UserScreenName" ColumnName="UserScreenName" />
+          <ScalarProperty Name="USerProfileText" ColumnName="USerProfileText" />
+          <ScalarProperty Name="UserFollowerCount" ColumnName="UserFollowerCount" />
+          <ScalarProperty Name="UserFollowingCount" ColumnName="UserFollowingCount" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="appuser">
+      <EntityTypeMapping TypeName="twitterdbModel.appuser">
+        <MappingFragment StoreEntitySet="appuser">
+          <ScalarProperty Name="Similarity" ColumnName="Similarity" />
+          <ScalarProperty Name="Spelling" ColumnName="Spelling" />
+          <ScalarProperty Name="Stemming2" ColumnName="Stemming2" />
+          <ScalarProperty Name="StopWord" ColumnName="StopWord" />
+          <ScalarProperty Name="Preprocessing" ColumnName="Preprocessing" />
+          <ScalarProperty Name="Stemming1" ColumnName="Stemming1" />
+          <ScalarProperty Name="Negativ" ColumnName="Negativ" />
+          <ScalarProperty Name="Positiv" ColumnName="Positiv" />
+          <ScalarProperty Name="Authorize" ColumnName="Authorize" />
+          <ScalarProperty Name="Mail" ColumnName="Mail" />
+          <ScalarProperty Name="Password" ColumnName="Password" />
+          <ScalarProperty Name="Name" ColumnName="Name" />
+          <ScalarProperty Name="Id" ColumnName="Id" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>

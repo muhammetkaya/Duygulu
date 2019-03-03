@@ -1,0 +1,28 @@
+C:\Users\Hasan\documents\visual studio 2012\Projects\DuyguluDogrulama\DuyguluDogrulama\bin\Release\DuyguluDogrulama.exe.config
+C:\Users\Hasan\documents\visual studio 2012\Projects\DuyguluDogrulama\DuyguluDogrulama\bin\Release\DuyguluDogrulama.exe
+C:\Users\Hasan\documents\visual studio 2012\Projects\DuyguluDogrulama\DuyguluDogrulama\bin\Release\DuyguluDogrulama.pdb
+C:\Users\Hasan\documents\visual studio 2012\Projects\DuyguluDogrulama\DuyguluDogrulama\bin\Release\LinqToTwitter.dll
+C:\Users\Hasan\documents\visual studio 2012\Projects\DuyguluDogrulama\DuyguluDogrulama\bin\Release\TextProcessing on Twit.dll
+C:\Users\Hasan\documents\visual studio 2012\Projects\DuyguluDogrulama\DuyguluDogrulama\obj\Release\DuyguluDogrulama.frmDogrulama.resources
+C:\Users\Hasan\documents\visual studio 2012\Projects\DuyguluDogrulama\DuyguluDogrulama\obj\Release\DuyguluDogrulama.Properties.Resources.resources
+C:\Users\Hasan\documents\visual studio 2012\Projects\DuyguluDogrulama\DuyguluDogrulama\obj\Release\DuyguluDogrulama.csproj.GenerateResource.Cache
+C:\Users\Hasan\documents\visual studio 2012\Projects\DuyguluDogrulama\DuyguluDogrulama\obj\Release\DuyguluDogrulama.exe
+C:\Users\Hasan\documents\visual studio 2012\Projects\DuyguluDogrulama\DuyguluDogrulama\obj\Release\DuyguluDogrulama.pdb
+C:\Users\Hasan\documents\visual studio 2012\Projects\DuyguluDogrulama\DuyguluDogrulama\bin\Release\MySql.Data.dll
+E:\Documents\Visual Studio 2012\Projects\DuyguluDogrulama\DuyguluDogrulama\bin\Release\DuyguluDogrulama.exe.config
+E:\Documents\Visual Studio 2012\Projects\DuyguluDogrulama\DuyguluDogrulama\obj\Release\DuyguluDogrulama.exe
+E:\Documents\Visual Studio 2012\Projects\DuyguluDogrulama\DuyguluDogrulama\obj\Release\DuyguluDogrulama.pdb
+E:\Documents\Visual Studio 2012\Projects\DuyguluDogrulama\DuyguluDogrulama\bin\Release\DuyguluDogrulama.exe
+E:\Documents\Visual Studio 2012\Projects\DuyguluDogrulama\DuyguluDogrulama\bin\Release\DuyguluDogrulama.pdb
+E:\Documents\Visual Studio 2012\Projects\DuyguluDogrulama\DuyguluDogrulama\bin\Release\LinqToTwitter.dll
+E:\Documents\Visual Studio 2012\Projects\DuyguluDogrulama\DuyguluDogrulama\bin\Release\TextProcessing on Twit.dll
+E:\Documents\Visual Studio 2012\Projects\DuyguluDogrulama\DuyguluDogrulama\obj\Release\DuyguluDogrulama.csprojResolveAssemblyReference.cache
+E:\Documents\Visual Studio 2012\Projects\DuyguluDogrulama\DuyguluDogrulama\obj\Release\DuyguluDogrulama.frmDogrulama.resources
+E:\Documents\Visual Studio 2012\Projects\DuyguluDogrulama\DuyguluDogrulama\obj\Release\DuyguluDogrulama.Properties.Resources.resources
+E:\Documents\Visual Studio 2012\Projects\DuyguluDogrulama\DuyguluDogrulama\obj\Release\DuyguluDogrulama.csproj.GenerateResource.Cache
+E:\Documents\Visual Studio 2012\Projects\DuyguluDogrulama\DuyguluDogrulama\bin\Release\MySql.Data.dll
+E:\Documents\Visual Studio 2012\Projects\DuyguluDogrulama\DuyguluDogrulama\bin\Release\Duygulu.dll
+E:\Documents\Visual Studio 2012\Projects\DuyguluDogrulama\DuyguluDogrulama\bin\Release\EntityFramework.dll
+E:\Documents\Visual Studio 2012\Projects\DuyguluDogrulama\DuyguluDogrulama\bin\Release\Duygulu.pdb
+E:\Documents\Visual Studio 2012\Projects\DuyguluDogrulama\DuyguluDogrulama\bin\Release\EntityFramework.xml
+E:\Documents\Visual Studio 2012\Projects\DuyguluDogrulama\DuyguluDogrulama\obj\Release\DuyguluDogrulama.Sonuc.resources

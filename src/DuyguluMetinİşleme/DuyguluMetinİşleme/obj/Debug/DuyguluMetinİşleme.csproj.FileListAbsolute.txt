@@ -1,0 +1,15 @@
+c:\users\muhammetk\documents\visual studio 2013\Projects\DuyguluMetinİşleme\DuyguluMetinİşleme\obj\Debug\DuyguluMetinİşleme.csprojResolveAssemblyReference.cache
+c:\users\muhammetk\documents\visual studio 2013\Projects\DuyguluMetinİşleme\DuyguluMetinİşleme\bin\Debug\DuyguluMetinİşleme.dll
+c:\users\muhammetk\documents\visual studio 2013\Projects\DuyguluMetinİşleme\DuyguluMetinİşleme\bin\Debug\DuyguluMetinİşleme.pdb
+c:\users\muhammetk\documents\visual studio 2013\Projects\DuyguluMetinİşleme\DuyguluMetinİşleme\obj\Debug\DuyguluMetinİşleme.dll
+c:\users\muhammetk\documents\visual studio 2013\Projects\DuyguluMetinİşleme\DuyguluMetinİşleme\obj\Debug\DuyguluMetinİşleme.pdb
+c:\users\muhammetk\documents\visual studio 2013\Projects\DuyguluMetinİşleme\DuyguluMetinİşleme\bin\Debug\SimMetrics.dll
+c:\users\muhammetk\documents\visual studio 2013\Projects\DuyguluMetinİşleme\DuyguluMetinİşleme\bin\Debug\SimMetrics.pdb
+c:\users\muhammetk\documents\visual studio 2013\Projects\DuyguluMetinİşleme\DuyguluMetinİşleme\bin\Debug\SimMetrics.xml
+C:\Users\Hasan\Documents\Visual Studio 2012\Projects\Duygulu\DuyguluMetinİşleme\DuyguluMetinİşleme\bin\Debug\DuyguluMetinİşleme.dll
+C:\Users\Hasan\Documents\Visual Studio 2012\Projects\Duygulu\DuyguluMetinİşleme\DuyguluMetinİşleme\bin\Debug\DuyguluMetinİşleme.pdb
+C:\Users\Hasan\Documents\Visual Studio 2012\Projects\Duygulu\DuyguluMetinİşleme\DuyguluMetinİşleme\bin\Debug\SimMetrics.pdb
+C:\Users\Hasan\Documents\Visual Studio 2012\Projects\Duygulu\DuyguluMetinİşleme\DuyguluMetinİşleme\bin\Debug\SimMetrics.xml
+C:\Users\Hasan\Documents\Visual Studio 2012\Projects\Duygulu\DuyguluMetinİşleme\DuyguluMetinİşleme\obj\Debug\DuyguluMetinİşleme.csprojResolveAssemblyReference.cache
+C:\Users\Hasan\Documents\Visual Studio 2012\Projects\Duygulu\DuyguluMetinİşleme\DuyguluMetinİşleme\obj\Debug\DuyguluMetinİşleme.dll
+C:\Users\Hasan\Documents\Visual Studio 2012\Projects\Duygulu\DuyguluMetinİşleme\DuyguluMetinİşleme\obj\Debug\DuyguluMetinİşleme.pdb

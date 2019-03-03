@@ -1,0 +1,17 @@
+C:\Users\Hasan\documents\visual studio 2012\Projects\Duygulu\DuyguluWeb\bin\DuyguluWeb.dll
+C:\Users\Hasan\documents\visual studio 2012\Projects\Duygulu\DuyguluWeb\bin\DuyguluWeb.pdb
+C:\Users\Hasan\documents\visual studio 2012\Projects\Duygulu\DuyguluWeb\obj\Debug\DuyguluWeb.csprojResolveAssemblyReference.cache
+C:\Users\Hasan\documents\visual studio 2012\Projects\Duygulu\DuyguluWeb\obj\Debug\DuyguluWeb.dll
+C:\Users\Hasan\documents\visual studio 2012\Projects\Duygulu\DuyguluWeb\obj\Debug\DuyguluWeb.pdb
+C:\Users\Hasan\documents\visual studio 2012\Projects\Duygulu\DuyguluWeb\bin\Duygulu.dll
+C:\Users\Hasan\documents\visual studio 2012\Projects\Duygulu\DuyguluWeb\bin\DuyguluMetinİşleme.dll
+C:\Users\Hasan\documents\visual studio 2012\Projects\Duygulu\DuyguluWeb\bin\LinqToTwitter.dll
+C:\Users\Hasan\documents\visual studio 2012\Projects\Duygulu\DuyguluWeb\bin\SimMetrics.dll
+C:\Users\Hasan\documents\visual studio 2012\Projects\Duygulu\DuyguluWeb\bin\EntityFramework.dll
+C:\Users\Hasan\documents\visual studio 2012\Projects\Duygulu\DuyguluWeb\bin\DuyguluMetinİşleme.pdb
+C:\Users\Hasan\documents\visual studio 2012\Projects\Duygulu\DuyguluWeb\bin\Duygulu.pdb
+C:\Users\Hasan\documents\visual studio 2012\Projects\Duygulu\DuyguluWeb\bin\SimMetrics.pdb
+C:\Users\Hasan\documents\visual studio 2012\Projects\Duygulu\DuyguluWeb\bin\SimMetrics.xml
+C:\Users\Hasan\documents\visual studio 2012\Projects\Duygulu\DuyguluWeb\bin\EntityFramework.xml
+C:\Users\Hasan\documents\visual studio 2012\Projects\Duygulu\DuyguluWeb\bin\System.Web.Entity.dll
+C:\Users\Hasan\Documents\Visual Studio 2012\Projects\Duygulu\DuyguluWeb\bin\DuyguluWeb.dll.config

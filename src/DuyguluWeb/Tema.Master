@@ -1,0 +1,74 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Tema.master.cs" Inherits="DuyguluWeb.Tema" %>
+<html  runat="server" lang="tr">
+
+<head>
+<meta content="tr" http-equiv="Content-Language" />
+<meta content="text/html; charset=utf-8" http-equiv="Content-Type" />
+<title>Duygulu</title>
+    <link rel="stylesheet" href="css/style.css" type="text/css" media="screen"/>
+		<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.4.2/jquery.min.js"></script>
+        <script type="text/javascript" src="Scripts/sliding.form.js"></script>
+    <link href="styles/smart_tab_vertical.css" rel="stylesheet" type="text/css"></link>
+<script type="text/javascript" src="js/jquery-1.8.0.min.js"></script>
+<script type="text/javascript" src="js/jquery.smartTab.js"></script>
+
+</head>
+
+<body  style=" background-color: #429872">
+
+    <form id="form1" runat="server">
+
+<table style="width: 100%" cellpadding="0" cellspacing="0">
+	<tr>
+		<td style="width: 100px; height: 150px;background-color:#70DBFA" align="center">
+		<img alt="Duygulu" height="100" src="images/logo.png" width="100" /></td>
+		<td colspan="6" style="height: 150px; background-color:#6DC46B"">
+            <asp:ContentPlaceHolder ID="UstMenu" runat="server">
+		
+                </asp:ContentPlaceHolder>
+		</td>
+	</tr>
+	<tr>
+		<td style="width: 200px; height: 198px;background-color: #70DBFA" >kullanıcı bilgileributonlar<br />
+		<br />
+		</td>
+		<td colspan="6"  rowspan="2"  style=" background-color: #6DC46B">
+		<br />
+		    <asp:ContentPlaceHolder ID="Icerik" runat="server">
+            </asp:ContentPlaceHolder>
+	
+		</td>
+	</tr>
+	<tr>
+		<td style="width: 200px; background-color: #8DBF30">
+		
+		<table cellpadding="0" cellspacing="0"  style="width: 100%; height: 125px;">
+			<tr>
+				<td onmouseout="this.bgColor='#8DBF30'" onmouseover="this.bgColor='#BBD983'">
+				İLETİŞİM</td>
+			</tr>
+			<tr>
+				<td onmouseout="this.bgColor='#8DBF30'" onmouseover="this.bgColor='#BBD983'">
+				HAKKIMIZDA</td>
+			</tr>
+		</table>
+		
+		</td>
+	</tr>
+	<tr  style=" background-color: #74B300">
+		<td style="height: 36px; width: 200px"></td>
+		<td style="height: 36px; width: 136px">&nbsp;</td>
+		<td style="height: 36px; width: 136px">&nbsp;</td>
+		<td style="height: 36px; width: 117px">&nbsp;</td>
+		<td style="height: 36px; width: 107px">&nbsp;</td>
+		<td style="height: 36px; width: 119px">&nbsp;</td>
+		<td style="height: 36px"></td>
+	</tr>
+</table>
+
+    </form>
+
+</body>
+
+</html>
+
